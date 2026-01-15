@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #0b0c1a;
+  background-color: #ffddf0;
   color: #f0f0f0;
   background-image: url("starry_sun.jpg");
   background-size: cover;
@@ -20,7 +20,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: #1b1d3a;
+  background-color: #fbc9e1;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar-right a:hover {
-  color: #aaaaff;
+  color: #c63467;
 }
 
 /* =========================
@@ -62,7 +62,7 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(28, 31, 47, 0.95);
+  background-color: #fbc9e1;
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
@@ -83,7 +83,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #5555aa;
+  border: 3px solid #c63467;
   object-fit: cover;
 }
 
@@ -94,7 +94,7 @@ body {
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: #ccccff;
+  color: #c63467;
 }
 
 /* =========================
@@ -192,4 +192,9 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
+  
 }
+.page-textsize{
+    text-align: center;
+    color:#c63467;
+  }
