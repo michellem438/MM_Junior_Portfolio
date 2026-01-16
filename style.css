@@ -45,7 +45,7 @@ body {
 }
 
 .navbar-right a:hover {
-  color: #FBF;
+  color: #F4C7D0;
 }
 
 /* =========================
@@ -65,7 +65,7 @@ body {
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 12px r#F7F4EF;
 }
 
 /* =========================
@@ -110,7 +110,7 @@ body {
   min-width: 320px;
   height: 450px;
   border: none;
-  background-color: rgb(71, 57, 57);
+  background-color: #F7F4EF;
   border-radius: 8px;
 }
 
