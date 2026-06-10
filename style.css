@@ -11,7 +11,8 @@ body {
   color: #f0f0f0;
   background-image: url("/8f4d37ee8142e72995f6d85d5269af10.gif");
   background-size: cover;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
 }
 
