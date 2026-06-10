@@ -109,7 +109,7 @@ body {
 .project {
   display: flex;
   gap: 1.5em;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .project iframe {
@@ -126,15 +126,20 @@ body {
   background-color: rgba(255, 255, 255, 0.04);
   padding: 1em;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .reflection h3 {
+  font-size: 1.8rem;
   margin-top: 0;
   color: #F4C7D0;
 }
 
 .reflection p {
-  font-size: 0.95em;
+  font-size: 1.1rem;
+  line-height: 1.6;
   color: #F7F4EF;
 }
 
